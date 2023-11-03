@@ -1,0 +1,30 @@
+.logins
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    margin-top:100px  ;
+    margin-bottom: 30px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.login_form input
+{
+   width: 400px;
+   margin-top: 15px;
+}
+.login_form .btns1234
+{
+    width: 300px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}

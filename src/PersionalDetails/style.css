@@ -1,0 +1,211 @@
+/* .logins
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 450px;
+    height: auto;
+    margin: auto;
+    margin-top:100px  ;
+    margin-bottom: 30px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.login_form input
+{
+   width: 400px;
+   margin-top: 15px;
+}
+.login_form .btns1234
+{
+    width: 300px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+} */
+
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.App {
+  background: rgb(255, 0, 228);
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 228, 1) 0%,
+    rgba(212, 51, 16, 1) 84%,
+    rgba(255, 0, 95, 1) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+body 
+{
+  margin: 0%;
+  padding: 0%;
+  font-family: montserrat, arial, verdana;
+}
+.form 
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  width:700px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction:column;
+  margin-bottom:30px;
+  margin-top:0px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.form-container .header {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.form-container .body {
+  flex: 60%;
+}
+
+.form-container .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container .footer button {
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  /* background-color: rgb(255, 0, 140); */
+  background-color: orange;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 1px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+  margin: 5px;
+}
+/* ******************************Start********************************** */
+.sign-up-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-container input {
+  margin: 5px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+/* ******************************End********************************** */
+
+
+/* ******************************Start********************************** */
+.personal-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.personal-info-container input {
+  margin: 5px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+textarea
+{
+    margin: 5px;
+    width: 400px;
+    height: 60px;
+    padding-left: 15px;
+    font-size: 15px;
+    border: 2px solid rgb(186, 196, 197);
+    border-radius:3px;
+}
+textarea:focus
+{
+    outline: none;
+}
+/* ******************************End********************************** */
+
+
+/* PROGRESS BAR */
+.progressbar {
+  width: 700px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.progressbar div {
+  width: 33.3%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
+}
+
+
+/* ******************************start********************************** */
+.other-info-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-info-container input {
+  margin: 5px;
+  width: 400px;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+input {
+  border: 2px solid rgb(186, 196, 197);
+  border-radius:3px;
+}
+
+input:focus {
+  /* border: 3px solid rgb(186, 196, 197); */
+  outline: none;
+}
+
+/* ******************************End********************************** */
+.de
+{
+    margin-left: 10px;
+}

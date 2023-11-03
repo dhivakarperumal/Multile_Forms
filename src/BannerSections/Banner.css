@@ -1,0 +1,54 @@
+.banner_images
+{
+    background-image: url('../Assert/nature-3082832_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner_Sercitons_Contents
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+.BtnSections
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.paras
+{
+    width: 65%;
+    margin-top: 10px;
+}
+.btns
+{
+    margin-top: 10px;
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    margin: 10px 15px;
+    font-weight: bolder;
+}
+
+.btns12
+{
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    margin: 10px 15px;
+    font-weight: bolder;
+}

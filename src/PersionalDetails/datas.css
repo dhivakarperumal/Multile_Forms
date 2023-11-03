@@ -1,0 +1,17 @@
+.Tables_bots
+{
+    margin-bottom: 30px;
+}
+.Tables_bots th
+{
+    border:solid 2px black ;
+    padding: 5px 10px;
+    background-color: rgb(30, 140, 155) ;
+    color: white;
+    font-weight: bolder;
+}
+.Tables_bots td
+{
+    border:solid 2px black ;
+    padding: 5px 10px;
+}
